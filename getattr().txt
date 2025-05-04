@@ -1,0 +1,7 @@
+# getattr() -> gets the values of an attribute 
+# syntax: getattr(obj_name,'attribite_name','default_val')
+class cat:
+    meow="me me"
+c=cat()
+print(getattr(c,'meow'))
+print(getattr(c,'age','not found'))
